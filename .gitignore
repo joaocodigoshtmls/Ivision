@@ -1,0 +1,36 @@
+# Dependências
+node_modules/
+
+# Build do Next.js
+.next/
+out/
+
+# Build de produção
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Configs locais
+.env
+.env.local
+.env.*.local
+
+# Cache de pacotes
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
